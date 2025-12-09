@@ -1,8 +1,8 @@
-\# E-commerce Customer Analytics | Python + SQL + Power BI
+ E-commerce Customer Analytics | Python + SQL + Power BI
 
 
 
-\### 📌 Project Objective
+ 📌 Project Objective
 
 To analyze customer purchasing behavior and identify key revenue drivers using data cleaning, SQL queries, Python visualizations, and a Power BI dashboard.
 
@@ -12,7 +12,7 @@ To analyze customer purchasing behavior and identify key revenue drivers using d
 
 
 
-\### 🧠 Key Business Insights (from analysis)
+ 🧠 Key Business Insights (from analysis)
 
 \- 4372 unique customers purchased items
 
@@ -28,7 +28,7 @@ To analyze customer purchasing behavior and identify key revenue drivers using d
 
 
 
-\### 🛠 Tools Used
+ 🛠 Tools Used
 
 \- Python (Pandas, Matplotlib)
 
@@ -44,7 +44,7 @@ To analyze customer purchasing behavior and identify key revenue drivers using d
 
 
 
-\### 🧹 Data Cleaning Steps (Python)
+ 🧹 Data Cleaning Steps (Python)
 
 \- Removed missing CustomerID records
 
@@ -60,7 +60,7 @@ To analyze customer purchasing behavior and identify key revenue drivers using d
 
 
 
-\### 🧮 SQL Analysis Queries
+ 🧮 SQL Analysis Queries
 
 \- Total orders per customer
 
@@ -74,7 +74,7 @@ To analyze customer purchasing behavior and identify key revenue drivers using d
 
 
 
-\### 📈 Python Visualizations
+ 📈 Python Visualizations
 
 
 
@@ -94,7 +94,7 @@ Revenue by top 5 customers
 
 
 
-\### 🖥 Power BI Dashboard Preview
+ 🖥 Power BI Dashboard Preview
 
 !\[Dashboard Screenshot](images/dashboard.png)
 
@@ -104,7 +104,7 @@ Revenue by top 5 customers
 
 
 
-\### 📂 Folder Structure
+ 📂 Folder Structure
 
 EcommerceCustomerAnalytics/
 │
@@ -133,16 +133,16 @@ EcommerceCustomerAnalytics/
 
 ---
 
-### 🚀 What I Learned
+ 🚀 What I Learned
 - Combining SQL, Python & Power BI for end-to-end analytics
 - Translating raw data into business insights
 - Creating dashboard stories for decision making
 
 ---
 
-### 🧑‍💻 Author
-**V. Sanjay Kumar**  
-Aspiring Data Analyst
+ 🧑‍💻 Author
+**V. Sanjay Kumar** 
+
 
 
 
