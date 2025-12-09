@@ -109,24 +109,24 @@ Revenue by top 5 customers
 EcommerceCustomerAnalytics/
 │
 ├── data/
-│ ├── OnlineRetail.xlsx
-│ └── OnlineRetail_Cleaned.xlsx
+│   ├── OnlineRetail.xlsx
+│   └── OnlineRetail_Cleaned.xlsx
 │
 ├── python/
-│ └── eda.py
+│   └── eda.py
 │
 ├── sql/
-│ ├── 01_total_orders.sql
-│ ├── 02_revenue_per_customer.sql
-│ └── 03_customer_type.sql
+│   ├── 01_total_orders.sql
+│   ├── 02_revenue_per_customer.sql
+│   └── 03_customer_type.sql
 │
 ├── images/
-│ ├── dashboard.png
-│ ├── top_countries.png
-│ └── top_customers.png
+│   ├── dashboard.png
+│   ├── top_countries.png
+│   └── top_customers.png
 │
 ├── pbix/
-│ └── EcommerceCustomerDashboard.pbix
+│   └── EcommerceCustomerDashboard.pbix
 │
 └── README.md
 
@@ -142,6 +142,7 @@ EcommerceCustomerAnalytics/
 
  🧑‍💻 Author
 **V. Sanjay Kumar** 
+
 
 
 
