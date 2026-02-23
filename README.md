@@ -1,149 +1,76 @@
- E-commerce Customer Analytics | Python + SQL + Power BI
+# 🛒 E-Commerce Customer Analytics
 
-
-
- 📌 Project Objective
-
-To analyze customer purchasing behavior and identify key revenue drivers using data cleaning, SQL queries, Python visualizations, and a Power BI dashboard.
-
-
+An end-to-end customer analytics project that combines SQL data extraction, Python exploratory data analysis (EDA), and Power BI visualization to uncover key revenue drivers and customer behavior patterns.
 
 ---
 
+## 📌 Objective
 
-
- 🧠 Key Business Insights (from analysis)
-
-\- 4372 unique customers purchased items
-
-\- Total revenue of approx \*\*£ 8.28 Million\*\*
-
-\- Netherlands, Ireland and Germany are the highest revenue countries outside UK
-
-\- A few customers contribute majority of the revenue (Pareto principle)
-
-
+To analyze e-commerce customer data across the full analytics pipeline — from raw data querying to visual storytelling — enabling data-driven business decisions.
 
 ---
 
+## ✨ Features
 
-
- 🛠 Tools Used
-
-\- Python (Pandas, Matplotlib)
-
-\- SQL (Data querying and segmentation)
-
-\- Power BI (Dashboard and visual analytics)
-
-\- Excel (Raw dataset)
-
-
+- 🗄️ **SQL Analysis** — Data extraction, aggregation, and filtering for customer segmentation
+- 🐍 **Python EDA** — Statistical analysis, distribution plots, correlation heatmaps, outlier detection
+- 📊 **Power BI Dashboard** — Interactive visuals for revenue trends, customer segments, and behavior patterns
+- 💡 **Business Insights** — Actionable findings on high-value customers, churn signals, and top revenue categories
 
 ---
 
+## 🛠️ Tech Stack
 
-
- 🧹 Data Cleaning Steps (Python)
-
-\- Removed missing CustomerID records
-
-\- Created \*\*Revenue\*\* column (Quantity × UnitPrice)
-
-\- Removed duplicate transactions
-
-\- Exported cleaned dataset to Excel for BI
-
-
+| Layer | Technology |
+|---|---|
+| Data Querying | SQL (MySQL) |
+| Analysis & EDA | Python (Pandas, Matplotlib, Seaborn) |
+| Visualization | Power BI |
 
 ---
 
+## 📂 Project Structure
 
-
- 🧮 SQL Analysis Queries
-
-\- Total orders per customer
-
-\- Revenue per customer
-
-\- New vs returning customers based on purchase history
-
-
-
----
-
-
-
- 📈 Python Visualizations
-
-
-
-Revenue by top 5 countries  
-
-!\[Top Countries](images/top\_countries.png)
-
-
-
-Revenue by top 5 customers  
-
-!\[Top Customers](images/top\_customers.png)
-
-
-
----
-
-
-
- 🖥 Power BI Dashboard Preview
-
-!\[Dashboard Screenshot](images/dashboard.png)
-
-
-
----
-
-
-
- 📂 Folder Structure
-
-EcommerceCustomerAnalytics/
-│
-├── data/
-│   ├── OnlineRetail.xlsx
-│   └── OnlineRetail_Cleaned.xlsx
-│
-├── python/
-│   └── eda.py
+```
+Ecommerce-Customer-Analytics/
 │
 ├── sql/
-│   ├── 01_total_orders.sql
-│   ├── 02_revenue_per_customer.sql
-│   └── 03_customer_type.sql
-│
-├── images/
-│   ├── dashboard.png
-│   ├── top_countries.png
-│   └── top_customers.png
-│
-├── pbix/
-│   └── EcommerceCustomerDashboard.pbix
-│
+│   └── queries.sql              # SQL queries for data extraction
+├── analysis/
+│   └── eda_notebook.ipynb       # Python EDA notebook
+├── dashboard/
+│   └── CustomerAnalytics.pbix   # Power BI dashboard
+├── data/
+│   └── ecommerce_data.csv       # Source dataset
 └── README.md
-
-
----
-
- 🚀 What I Learned
-- Combining SQL, Python & Power BI for end-to-end analytics
-- Translating raw data into business insights
-- Creating dashboard stories for decision making
+```
 
 ---
 
- 🧑‍💻 Author
-**V. Sanjay Kumar** 
+## 🔑 Key Insights Uncovered
 
+- Top 20% of customers account for ~65% of total revenue (Pareto pattern)
+- Identified seasonal purchasing spikes and their product category drivers
+- Segmented customers into High, Mid, and Low value tiers using RFM analysis signals
 
+---
 
+## 🚀 How to Run
 
+```bash
+# Clone the repository
+git clone https://github.com/Sanjay1318/Ecommerce-Customer-Analytics.git
 
+# Install Python dependencies
+pip install pandas matplotlib seaborn jupyter
+
+# Launch the EDA notebook
+jupyter notebook analysis/eda_notebook.ipynb
+```
+
+---
+
+## 👤 Author
+
+**Vadla Sanjay Kumar**  
+[LinkedIn](https://www.linkedin.com/in/sanjaychari007/) · [GitHub](https://github.com/Sanjay1318)
